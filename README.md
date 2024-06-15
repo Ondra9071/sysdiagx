@@ -19,7 +19,7 @@ If everything worked as it should then everything should be installed. Then just
 ```sysdiagx```
 
 ### File output
-SysDiagX will also save a complete log of the system information to `/etc/sysdiagx/output/`. This log file contains the same detailed information shown in the terminal output, making it easy to reference or share.
+SysDiagX will also save a complete log of the system information to `/etc/sysdiagx/output/`. This log file contains the same detailed information shown in the terminal output, making it easy to reference or share. (**Beware that the file contains an IP in the Network part**)
 
 ### License
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. By using this script, you agree to abide by the terms of this license. For more details, see the [LICENSE](./LICENSE) file included in this repository.
