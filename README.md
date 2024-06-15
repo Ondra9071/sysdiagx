@@ -16,7 +16,9 @@ sudo apt update && sudo apt install curl && curl --version
 curl -sS https://sysdiagx.ondrejpacovsky.cz/ftp/install.sh | sudo bash
 ```
 If everything worked as it should then everything should be installed. Then just always use this command:
-```sysdiagx```
+```
+sysdiagx
+```
 
 ### File output
 SysDiagX will also save a complete log of the system information to `/etc/sysdiagx/output/`. This log file contains the same detailed information shown in the terminal output, making it easy to reference or share. (**Beware that the file contains an IP in the Network part**)
